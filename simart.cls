@@ -170,12 +170,13 @@
 
 \usepackage{geometry} % Required for adjusting page dimensions and margins
 
+
 \geometry{
 	paper=a4paper, % Paper size, change to letterpaper for US letter size
 	top=2.5cm, % Top margin
-	bottom=3cm, % Bottom margin
-	left=4cm, % Left margin
-	right=4cm, % Right margin
+	bottom=2.5cm, % Bottom margin
+	left=2.5cm, % Left margin
+	right=2.5cm, % Right margin
 	headheight=0.75cm, % Header height
 	footskip=1.5cm, % Space from the bottom margin to the baseline of the footer
 	headsep=0.75cm, % Space from the top margin to the baseline of the header
@@ -191,7 +192,7 @@
 %----------------------------------------------------------------------------------------
 % LUALATEX FONT
 \usepackage{fontspec}
-%\setmainfont{Arial} %Altex main font documents, default= Modern
+%\setmainfont{Times New Roman}%Altex main font documents, default= Modern
 
 % PdfLATEX FONT
 %\usepackage[utf8]{inputenc} % Required for inputting international characters
